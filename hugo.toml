@@ -1,0 +1,40 @@
+title = "Lightbridge Gallery"
+languageCode = "en-us"
+copyright = "© Lightbridge"
+disableKinds = ["taxonomy", "term"]
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+theme = "gallery"
+timeout = "120s"
+
+[params]
+  title = "Lightbridge Gallery"
+  description = "Gallery website for Lightbridge-KS"
+  defaultTheme = "dark"
+
+[author]
+  name = "Kittipos Sirivongrungson"
+
+[outputs]
+  page = ["HTML"]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.112.0"
+
+[menu]
+[[menu.footer]]
+  name = "GitHub"
+  url = "https://github.com/Lightbridge-KS/gallery-lightbridge/"
+  weight = 3
