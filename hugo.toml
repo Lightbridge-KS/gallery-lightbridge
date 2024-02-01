@@ -1,3 +1,6 @@
+# Hugo Gallery theme: https://github.com/nicokaiser/hugo-theme-gallery
+## Adapted from: https://github.com/nicokaiser/hugo-gallery-example/tree/main
+
 title = "Lightbridge Gallery"
 languageCode = "en-us"
 copyright = "© Lightbridge"
