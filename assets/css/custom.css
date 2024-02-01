@@ -1,0 +1,11 @@
+:root {
+    --b1: 0 0% 100%; /* Base color of page */
+    --b2: 0 0% 96.08%; /* Base color, a little darker */
+    --bc: 0 0% 9.02%; /* Foreground content color */
+}
+  
+html.dark {
+    --b1: 0 0% 9.02%;
+    --b2: 0 0% 14.9%;
+    --bc: 0 0% 96.08%;
+}
