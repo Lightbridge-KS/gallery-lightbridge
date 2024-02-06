@@ -7,4 +7,7 @@ menu:
     weight: 1
 ---
 
-This is a demonstration site for the Hugo Gallery theme.
+- This is my gallery site showing mostly the photos I've taken. 
+
+- Please feel free to have a visit at [my main blog](https://lightbridge.netlify.app).
+
