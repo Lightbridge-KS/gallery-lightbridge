@@ -2,7 +2,7 @@
 ## Adapted from: https://github.com/nicokaiser/hugo-gallery-example/tree/main
 
 title = "Lightbridge Gallery"
-languageCode = "en-us"
+languageCode = ""
 copyright = "© Lightbridge"
 disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "en"
@@ -20,7 +20,7 @@ timeout = "120s"
 
 [outputs]
   page = ["HTML"]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]
   section = ["HTML"]
 
 [imaging]
