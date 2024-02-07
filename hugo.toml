@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 theme = "gallery"
-timeout = "120s"
+timeout = "300s"
 
 [params]
   title = "Lightbridge Gallery"
