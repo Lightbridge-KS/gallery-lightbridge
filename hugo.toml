@@ -38,6 +38,10 @@ timeout = "300s"
 
 [menu]
 [[menu.footer]]
+  name = "Main Blog"
+  url = "https://lightbridge.netlify.app"
+  weight = 1
+[[menu.footer]]
   name = "GitHub"
   url = "https://github.com/Lightbridge-KS/gallery-lightbridge/"
-  weight = 3
+  weight = 2
